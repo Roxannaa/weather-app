@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- Sun -->
+  <circle cx="40" cy="40" r="22" fill="#FFD93B"></circle>
+  
+  <!-- Sun rays -->
+  <g stroke="#FFD93B" stroke-width="6" stroke-linecap="round">
+    <line x1="40" y1="10" x2="40" y2="0"></line>
+    <line x1="40" y1="80" x2="40" y2="70"></line>
+    <line x1="10" y1="40" x2="0" y2="40"></line>
+    <line x1="80" y1="40" x2="70" y2="40"></line>
+    <line x1="14" y1="14" x2="6" y2="6"></line>
+    <line x1="66" y1="14" x2="74" y2="6"></line>
+    <line x1="14" y1="66" x2="6" y2="74"></line>
+    <line x1="66" y1="66" x2="74" y2="74"></line>
+  </g>
+
+  <!-- Cloud -->
+  <path d="M80 60a20 20 0 0 0-39-6A16 16 0 1 0 42 88h38a18 18 0 0 0 0-36z" fill="#D0D8DC"></path>
+
+  <!-- Rain drops -->
+  <g fill="#4BA3FF">
+    <path d="M52 98c0 6-4 10-4 10s-4-4-4-10a4 4 0 1 1 8 0z"></path>
+    <path d="M72 98c0 6-4 10-4 10s-4-4-4-10a4 4 0 1 1 8 0z"></path>
+    <path d="M92 98c0 6-4 10-4 10s-4-4-4-10a4 4 0 1 1 8 0z"></path>
+  </g>
+</svg>
